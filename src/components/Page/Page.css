@@ -1,0 +1,45 @@
+@import "@fontsource/fira-code";
+
+.Page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 3rem 0 5rem 0;
+}
+
+.Page__editor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 45vw;
+    border: 1px solid #333;
+}
+
+.Page__editor-label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.Page__editor-textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-family: "Fira Code", monospace;
+    resize: none;
+    padding: 1rem;
+}
+
+.Page__preview {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 45vw;
+    border: 1px solid #333;
+    padding: 1rem;
+    background-color: #FFF;
+}
+
